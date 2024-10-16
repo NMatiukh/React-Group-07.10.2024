@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM: Управління Клієнтами та Замовленнями</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>CRM: Управління Клієнтами та Замовленнями</h1>
+
+    <!-- Форма додавання клієнта -->
+    <div id="client-form">
+        <h2>Додати клієнта</h2>
+        <input type="text" id="clientName" placeholder="Ім'я клієнта">
+        <button id="addClientBtn">Додати клієнта</button>
+    </div>
+
+    <!-- Список клієнтів -->
+    <h2>Список клієнтів</h2>
+    <ul id="clientList"></ul>
+
+    <!-- Список замовлень -->
+    <h2>Замовлення клієнта</h2>
+    <div id="order-section"></div>
+</div>
+
+<script src="js/client.js"></script>
+<script src="js/order.js"></script>
+<script src="js/product.js"></script>
+<script src="js/api.js"></script>
+<script src="js/crmManager.js"></script>
+</body>
+</html>
