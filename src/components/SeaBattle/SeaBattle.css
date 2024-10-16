@@ -1,0 +1,19 @@
+.SeaBattle-board {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.SeaBattle-row {
+  display: flex;
+}
+
+.SeaBattle-cell {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  display: flex;
+}
+
+.SeaBattle-cell--with-ship {
+  background-color: red;
+}
