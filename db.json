@@ -1,71 +1,31 @@
 {
   "clients": [
     {
-      "id": "1",
-      "name": "Іван Петров"
-    },
-    {
-      "id": "2",
-      "name": "Марія Іваненко"
-    },
-    {
-      "id": "3",
-      "name": "Олег Сидоренко"
-    },
-    {
-      "id": 1729044150262,
-      "name": "Test",
+      "id": 1729066762863,
+      "name": "TEST",
       "orders": []
-    }
-  ],
-  "products": [
-    {
-      "id": "1",
-      "name": "Продукт A",
-      "price": 100
     },
     {
-      "id": "2",
-      "name": "Продукт B",
-      "price": 200
-    },
-    {
-      "id": "3",
-      "name": "Продукт C",
-      "price": 150
+      "id": 1729067098876,
+      "name": "Іван",
+      "orders": []
     }
   ],
   "orders": [
     {
-      "id": "1",
-      "clientId": "1",
-      "products": [
-        {
-          "id": "1",
-          "name": "Продукт A",
-          "price": 100
-        },
-        {
-          "id": "2",
-          "name": "Продукт B",
-          "price": 200
-        }
-      ],
-      "status": "в обробці",
-      "totalPrice": 300
+      "id": 1,
+      "products": [],
+      "status": "комплектується",
+      "totalPrice": 100,
+      "clientId": 1729066762863
     },
     {
-      "id": "2",
-      "clientId": "2",
-      "products": [
-        {
-          "id": "3",
-          "name": "Продукт C",
-          "price": 150
-        }
-      ],
-      "status": "завершено",
-      "totalPrice": 150
+      "id": 1,
+      "products": [],
+      "status": "відправлено",
+      "totalPrice": 3452,
+      "clientId": 1729067098876
     }
-  ]
+  ],
+  "products": []
 }
