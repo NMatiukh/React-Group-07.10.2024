@@ -4,22 +4,26 @@ const board = [
     [0, 0, 1, 0, 0, 1, 0, 0, 0, 0],
     [0, 0, 1, 0, 0, 1, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-    [1, 0, 0, 0, 0, 0, 1, 0, 1, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 1],
     [1, 0, 0, 0, 0, 0, 0, 0, 1, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0, 0, 9]
 ];
 
 function checkBoard(board) {
-    if (board.length === 10) {
+    if (board.length !== 10) {
+        console.log('Board should have 10 rows, please check once again!');
+        return false;
+    } else {
         for (let i = 0; i < board.length; i++) {
             if (board[i].length !== 10) {
-                console.log('Board should be 10x10, please check your rows and columns');
+                console.log('Board should have 10 columns in it, please check!');
                 return false;
             }
         }
     }
+    console.log('Board is standard, thank you!')
     return true;
 }
 
