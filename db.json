@@ -1,0 +1,31 @@
+{
+  "clients": [
+    {
+      "id": 1730412250199,
+      "name": "Ivan",
+      "orders": []
+    },
+    {
+      "id": 1730412254291,
+      "name": "Taras",
+      "orders": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "products": [],
+      "status": "комплектується",
+      "totalPrice": 100,
+      "clientId": 1729066762863
+    },
+    {
+      "id": "2",
+      "products": [],
+      "status": "відправлено",
+      "totalPrice": 3452,
+      "clientId": 1729067098876
+    }
+  ],
+  "products": []
+}

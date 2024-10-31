@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container">
+        <ul class="nav-list">
+            <li><a href="index.html">Клієнти</a></li>
+            <li><a href="orders.html">Замовлення</a></li>
+            <li><a href="products.html">Продукти</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>CRM система управління замовленнями</h1>
+    
+        <div id="client-form">
+            <h2>
+                Додати клієнта
+            </h2>
+            <input id="clientName" type="text" placeholder="Ім'я клієнта"/>
+            <button id="addClientBtn">Додати клієнта</button>
+        </div>
+
+        <h2>Список клієнтів</h2>
+        <ul id="clientList"></ul>
+
+        <h2>Замовлення клієнтів</h2>
+        <div id="order-section">
+
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/client.js"></script>
+    <script src="js/crm.js"></script>
+    <script src="js/order.js"></script>
+    <script src="js/product.js"></script>
+
+</body>
+</html>
